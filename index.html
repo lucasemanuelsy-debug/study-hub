@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Study Hub: estudos e projetos de Engenharia de Software.">
+  <title>Study Hub | Engenharia de Software</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fb;
+      color: #263247;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #172554;
+      color: white;
+      padding: 22px 8%;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    nav a:hover {
+      color: #93c5fd;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #172554, #2563eb);
+      color: white;
+      padding: 85px 8%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto 25px;
+      color: #e0eaff;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: #1d4ed8;
+      padding: 11px 22px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 45px 22px;
+    }
+
+    section {
+      margin-bottom: 55px;
+      scroll-margin-top: 25px;
+    }
+
+    h2 {
+      color: #172554;
+      margin-bottom: 18px;
+      font-size: 1.8rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 23px;
+      border-radius: 12px;
+      border: 1px solid #e1e7f0;
+      box-shadow: 0 4px 12px rgba(23, 37, 84, 0.05);
+    }
+
+    .card h3 {
+      color: #1d4ed8;
+      margin-bottom: 8px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 20px;
+      padding: 5px 12px;
+      margin: 5px 5px 5px 0;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background: #172554;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        justify-content: center;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        padding: 60px 6%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">Study Hub</div>
+      <div>
+        <a href="#sobre">Sobre</a>
+        <a href="#interesses">Interesses</a>
+        <a href="#disciplinas">Disciplinas</a>
+        <a href="#objetivos">Objetivos</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bem-vindo ao Study Hub</h1>
+    <p>
+      Um espaço para organizar meus estudos, registrar aprendizados
+      e desenvolver projetos durante a graduação em Engenharia de Software.
+    </p>
+    <a class="button" href="#sobre">Conheça o projeto</a>
+  </section>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre o projeto</h2>
+      <p>
+        O Study Hub é meu espaço de organização acadêmica. Aqui reúno
+        conteúdos das disciplinas, acompanho minha evolução e registro
+        projetos que ajudam a colocar em prática os conhecimentos adquiridos.
+      </p>
+      <p>
+        Sou estudante de Engenharia de Software no CEUB e estou construindo
+        minha trajetória na área de tecnologia por meio dos estudos e da prática.
+      </p>
+    </section>
+
+    <section id="interesses">
+      <h2>Áreas de interesse</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Desenvolvimento</h3>
+          <p>Aprender a criar programas, sistemas e aplicações.</p>
+        </article>
+        <article class="card">
+          <h3>Banco de dados</h3>
+          <p>Organizar, armazenar e consultar informações.</p>
+        </article>
+        <article class="card">
+          <h3>Inteligência artificial</h3>
+          <p>Conhecer soluções inteligentes e possibilidades de automação.</p>
+        </article>
+        <article class="card">
+          <h3>Redes e dados</h3>
+          <p>Entender a comunicação entre dispositivos e a análise de informações.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="disciplinas">
+      <h2>Disciplinas do primeiro semestre</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Bootcamp I</h3>
+          <p>Planejamento e organização do Study Hub e de suas entregas.</p>
+        </article>
+        <article class="card">
+          <h3>Banco de Dados I</h3>
+          <p>Modelagem de dados, entidades e relacionamentos.</p>
+        </article>
+        <article class="card">
+          <h3>Engenharia de Software</h3>
+          <p>Metodologias e etapas de desenvolvimento de sistemas.</p>
+        </article>
+        <article class="card">
+          <h3>Fundamentos da Engenharia</h3>
+          <p>Raciocínio lógico e resolução de problemas.</p>
+        </article>
+        <article class="card">
+          <h3>Introdução à Computação</h3>
+          <p>Conceitos básicos de computação e arquitetura de computadores.</p>
+        </article>
+        <article class="card">
+          <h3>Lógica de Programação</h3>
+          <p>Algoritmos, conceitos de programação e primeiros programas em Python.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="objetivos">
+      <h2>Meus objetivos</h2>
+      <div class="card">
+        <p>Os principais objetivos do Study Hub são:</p>
+        <p><span class="tag">Organizar estudos</span>
+          <span class="tag">Praticar conhecimentos</span>
+          <span class="tag">Desenvolver projetos</span>
+          <span class="tag">Acompanhar minha evolução</span>
+          <span class="tag">Construir um portfólio</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Study Hub | Engenharia de Software</p>
+    <p>CEUB — Asa Norte, Turma A</p>
+    <p>Projeto acadêmico em desenvolvimento</p>
+  </footer>
+</body>
+</html>
