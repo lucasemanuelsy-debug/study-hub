@@ -54,3 +54,8 @@ O Study Hub está em desenvolvimento e será atualizado conforme novos conteúdo
 
 Projeto acadêmico — Engenharia de Software  
 CEUB — Asa Norte, Turma A
+## Documentação da implantação
+
+A documentação da implantação do Study Hub foi organizada no Google Docs para registrar as etapas realizadas, as configurações e os testes do projeto.
+
+**Acessar a documentação:** https://docs.google.com/document/d/1ngTh0HomXP1CeNKbocf8zA9H2ueHBUfgmSMJRrKgi0A/edit?usp=sharing
